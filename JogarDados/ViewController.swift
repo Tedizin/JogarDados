@@ -8,9 +8,19 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    //MARK: - @IDOutlet
+    
+    @IBOutlet weak var diceOneUIImageView: UIImageView!
+    @IBOutlet weak var diceTwoUIImageView: UIImageView!
+    @IBAction func rollDiceUIButton(_ sender: Any) {
+    }
+    
+    //MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
 
 }
