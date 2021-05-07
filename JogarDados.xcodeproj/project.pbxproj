@@ -13,8 +13,6 @@
 		61D19EF026405F7D0080D99D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D19EEE26405F7D0080D99D /* Main.storyboard */; };
 		61D19EF226405F7F0080D99D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D19EF126405F7F0080D99D /* Assets.xcassets */; };
 		61D19EF526405F7F0080D99D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61D19EF326405F7F0080D99D /* LaunchScreen.storyboard */; };
-		61D19F0026405F7F0080D99D /* JogarDadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D19EFF26405F7F0080D99D /* JogarDadosTests.swift */; };
-		61D19F0B26405F800080D99D /* JogarDadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D19F0A26405F800080D99D /* JogarDadosUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61D19EE526405F7D0080D99D /* JogarDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogarDados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D19EE526405F7D0080D99D /* JogarDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = JogarDados.app; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDados.app"; sourceTree = "<absolute>"; };
 		61D19EE826405F7D0080D99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D19EEA26405F7D0080D99D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61D19EEC26405F7D0080D99D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,12 +41,8 @@
 		61D19EF126405F7F0080D99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61D19EF426405F7F0080D99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61D19EF626405F7F0080D99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61D19EFB26405F7F0080D99D /* JogarDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogarDadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61D19EFF26405F7F0080D99D /* JogarDadosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogarDadosTests.swift; sourceTree = "<group>"; };
-		61D19F0126405F800080D99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61D19F0626405F800080D99D /* JogarDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JogarDadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61D19F0A26405F800080D99D /* JogarDadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogarDadosUITests.swift; sourceTree = "<group>"; };
-		61D19F0C26405F800080D99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61D19EFB26405F7F0080D99D /* JogarDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosTests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosTests.xctest"; sourceTree = "<absolute>"; };
+		61D19F0626405F800080D99D /* JogarDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosUITests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,20 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				61D19EE726405F7D0080D99D /* JogarDados */,
-				61D19EFE26405F7F0080D99D /* JogarDadosTests */,
-				61D19F0926405F800080D99D /* JogarDadosUITests */,
-				61D19EE626405F7D0080D99D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		61D19EE626405F7D0080D99D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				61D19EE526405F7D0080D99D /* JogarDados.app */,
-				61D19EFB26405F7F0080D99D /* JogarDadosTests.xctest */,
-				61D19F0626405F800080D99D /* JogarDadosUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		61D19EE726405F7D0080D99D /* JogarDados */ = {
@@ -108,24 +89,6 @@
 				61D19EF626405F7F0080D99D /* Info.plist */,
 			);
 			path = JogarDados;
-			sourceTree = "<group>";
-		};
-		61D19EFE26405F7F0080D99D /* JogarDadosTests */ = {
-			isa = PBXGroup;
-			children = (
-				61D19EFF26405F7F0080D99D /* JogarDadosTests.swift */,
-				61D19F0126405F800080D99D /* Info.plist */,
-			);
-			path = JogarDadosTests;
-			sourceTree = "<group>";
-		};
-		61D19F0926405F800080D99D /* JogarDadosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				61D19F0A26405F800080D99D /* JogarDadosUITests.swift */,
-				61D19F0C26405F800080D99D /* Info.plist */,
-			);
-			path = JogarDadosUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +178,7 @@
 				Base,
 			);
 			mainGroup = 61D19EDC26405F7D0080D99D;
-			productRefGroup = 61D19EE626405F7D0080D99D /* Products */;
+			productRefGroup = 61D19EDC26405F7D0080D99D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -268,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D19F0026405F7F0080D99D /* JogarDadosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61D19F0B26405F800080D99D /* JogarDadosUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH5496S5KV;
 				INFOPLIST_FILE = JogarDadosTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PH5496S5KV;
 				INFOPLIST_FILE = JogarDadosTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
