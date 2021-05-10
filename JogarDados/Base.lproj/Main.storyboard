@@ -35,6 +35,9 @@
                                 <state key="normal" title="Rolar Dados">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="rolarDadosPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytk-Jc-lNT"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="up7-Gh-qz4">
                                 <rect key="frame" x="242" y="388" width="120" height="120"/>
