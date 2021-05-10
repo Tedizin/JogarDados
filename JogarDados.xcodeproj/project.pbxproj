@@ -33,7 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		61D19EE526405F7D0080D99D /* JogarDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = JogarDados.app; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDados.app"; sourceTree = "<absolute>"; };
+		0B2B3D8126499D9400528C8D /* JogarDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosTests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosTests.xctest"; sourceTree = "<absolute>"; };
+		0B2B3D8226499D9400528C8D /* JogarDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosUITests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosUITests.xctest"; sourceTree = "<absolute>"; };
+		0B80FCFE2644C3F200632C64 /* JogarDados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JogarDados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D19EE826405F7D0080D99D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61D19EEA26405F7D0080D99D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		61D19EEC26405F7D0080D99D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		61D19EF126405F7F0080D99D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61D19EF426405F7F0080D99D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61D19EF626405F7F0080D99D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61D19EFB26405F7F0080D99D /* JogarDadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosTests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosTests.xctest"; sourceTree = "<absolute>"; };
-		61D19F0626405F800080D99D /* JogarDadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JogarDadosUITests.xctest; path = "/Users/henriquesilva/Documents/Cursos Swift/Programa de Formação Mobile BRQ/JogarDados/build/Debug-iphoneos/JogarDadosUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				61D19EE726405F7D0080D99D /* JogarDados */,
+				0B80FCFE2644C3F200632C64 /* JogarDados.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,7 +109,7 @@
 			);
 			name = JogarDados;
 			productName = JogarDados;
-			productReference = 61D19EE526405F7D0080D99D /* JogarDados.app */;
+			productReference = 0B80FCFE2644C3F200632C64 /* JogarDados.app */;
 			productType = "com.apple.product-type.application";
 		};
 		61D19EFA26405F7F0080D99D /* JogarDadosTests */ = {
@@ -126,7 +127,7 @@
 			);
 			name = JogarDadosTests;
 			productName = JogarDadosTests;
-			productReference = 61D19EFB26405F7F0080D99D /* JogarDadosTests.xctest */;
+			productReference = 0B2B3D8126499D9400528C8D /* JogarDadosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		61D19F0526405F800080D99D /* JogarDadosUITests */ = {
@@ -144,7 +145,7 @@
 			);
 			name = JogarDadosUITests;
 			productName = JogarDadosUITests;
-			productReference = 61D19F0626405F800080D99D /* JogarDadosUITests.xctest */;
+			productReference = 0B2B3D8226499D9400528C8D /* JogarDadosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
