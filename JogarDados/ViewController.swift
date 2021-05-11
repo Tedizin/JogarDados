@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         
     }
     
+    //MARK: - Action
+    
     @IBAction func rollDiceUIButton(_ sender: Any) {
         
         let arrayDice = [UIImage(named: "DiceOne"), UIImage(named: "DiceTwo"),UIImage(named: "DiceThree"), UIImage(named: "DiceFour"), UIImage(named: "DiceFive"),UIImage(named: "DiceSix")]
