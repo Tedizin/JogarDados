@@ -16,36 +16,103 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="OS9-Vb-R9f">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GreenBackground" translatesAutoresizingMaskIntoConstraints="NO" id="OS9-Vb-R9f">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vcx-2h-7oi">
-                                <rect key="frame" x="87" y="94" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Ysh-eS-uMb">
-                                <rect key="frame" x="42" y="388" width="120" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYD-KF-oTi">
-                                <rect key="frame" x="159" y="678" width="95" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.60594880579999999" green="0.11350636930000001" blue="0.1245979592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Rolar Dados">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="rolarDadosPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytk-Jc-lNT"/>
-                                </connections>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="up7-Gh-qz4">
-                                <rect key="frame" x="242" y="388" width="120" height="120"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="m4z-z7-Shj">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="INR-rM-Lm6" userLabel="TopView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="266"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="vcx-2h-7oi">
+                                                <rect key="frame" x="109" y="69" width="196" height="128"/>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="vcx-2h-7oi" firstAttribute="centerX" secondItem="INR-rM-Lm6" secondAttribute="centerX" id="g3J-NW-ki3"/>
+                                            <constraint firstItem="vcx-2h-7oi" firstAttribute="centerY" secondItem="INR-rM-Lm6" secondAttribute="centerY" id="z1F-kr-v7c"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pn6-vy-9CS" userLabel="MiddleView">
+                                        <rect key="frame" x="0.0" y="276" width="414" height="266"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="qQC-Hj-TBY">
+                                                <rect key="frame" x="47" y="73" width="320" height="120"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="Ysh-eS-uMb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="120" id="5Yw-hT-ere"/>
+                                                            <constraint firstAttribute="width" constant="120" id="9hd-93-nmX"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="up7-Gh-qz4">
+                                                        <rect key="frame" x="200" y="0.0" width="120" height="120"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="120" id="EIO-SL-9aV"/>
+                                                            <constraint firstAttribute="height" constant="120" id="MCX-5R-fD4"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="qQC-Hj-TBY" firstAttribute="centerX" secondItem="pn6-vy-9CS" secondAttribute="centerX" id="8JL-yS-ZuL"/>
+                                            <constraint firstItem="qQC-Hj-TBY" firstAttribute="centerY" secondItem="pn6-vy-9CS" secondAttribute="centerY" id="eAR-uA-9Fa"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9bc-su-UeF" userLabel="BottomView">
+                                        <rect key="frame" x="0.0" y="552" width="414" height="266"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYD-KF-oTi">
+                                                <rect key="frame" x="159.5" y="109" width="95" height="48"/>
+                                                <color key="backgroundColor" red="0.60594880579999999" green="0.11350636930000001" blue="0.1245979592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="95" id="YDH-Em-N5g"/>
+                                                    <constraint firstAttribute="height" constant="48" id="mwI-85-a0Q"/>
+                                                </constraints>
+                                                <state key="normal" title="Rolar Dados">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="rolarDadosPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ytk-Jc-lNT"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="yYD-KF-oTi" firstAttribute="centerY" secondItem="9bc-su-UeF" secondAttribute="centerY" id="Frz-fj-dRw"/>
+                                            <constraint firstItem="yYD-KF-oTi" firstAttribute="centerX" secondItem="9bc-su-UeF" secondAttribute="centerX" id="UDB-Uy-Sa0"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9bc-su-UeF" firstAttribute="top" secondItem="pn6-vy-9CS" secondAttribute="bottom" constant="10" id="BgW-Nb-74z"/>
+                                    <constraint firstAttribute="trailing" secondItem="9bc-su-UeF" secondAttribute="trailing" id="SCP-kg-KbJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="pn6-vy-9CS" secondAttribute="trailing" id="VIq-Xi-8LI"/>
+                                    <constraint firstItem="pn6-vy-9CS" firstAttribute="top" secondItem="INR-rM-Lm6" secondAttribute="bottom" constant="10" id="WX0-pV-sef"/>
+                                    <constraint firstAttribute="trailing" secondItem="INR-rM-Lm6" secondAttribute="trailing" id="ZTJ-OR-mpr"/>
+                                    <constraint firstItem="INR-rM-Lm6" firstAttribute="top" secondItem="m4z-z7-Shj" secondAttribute="top" id="cTr-sL-CvC"/>
+                                    <constraint firstAttribute="bottom" secondItem="9bc-su-UeF" secondAttribute="bottom" id="eG9-9v-PpO"/>
+                                    <constraint firstItem="pn6-vy-9CS" firstAttribute="leading" secondItem="m4z-z7-Shj" secondAttribute="leading" id="epH-7C-97B"/>
+                                    <constraint firstItem="INR-rM-Lm6" firstAttribute="leading" secondItem="m4z-z7-Shj" secondAttribute="leading" id="hL3-hy-vvO"/>
+                                    <constraint firstItem="9bc-su-UeF" firstAttribute="top" secondItem="pn6-vy-9CS" secondAttribute="bottom" constant="10" id="lQ3-YU-bQ9"/>
+                                    <constraint firstItem="9bc-su-UeF" firstAttribute="leading" secondItem="m4z-z7-Shj" secondAttribute="leading" id="vIk-by-eNl"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dh6-79-QVk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dh6-79-QVk" firstAttribute="trailing" secondItem="m4z-z7-Shj" secondAttribute="trailing" id="0vf-ty-i7E"/>
+                            <constraint firstAttribute="bottom" secondItem="OS9-Vb-R9f" secondAttribute="bottom" id="1HQ-rE-nSp"/>
+                            <constraint firstAttribute="trailing" secondItem="OS9-Vb-R9f" secondAttribute="trailing" id="AP2-BQ-eDj"/>
+                            <constraint firstItem="OS9-Vb-R9f" firstAttribute="top" secondItem="QoC-kW-fA9" secondAttribute="top" id="IAR-Y7-GNW"/>
+                            <constraint firstItem="m4z-z7-Shj" firstAttribute="top" secondItem="dh6-79-QVk" secondAttribute="top" id="p8i-Cp-3zj"/>
+                            <constraint firstItem="m4z-z7-Shj" firstAttribute="leading" secondItem="dh6-79-QVk" secondAttribute="leading" id="t3I-2M-WLA"/>
+                            <constraint firstItem="OS9-Vb-R9f" firstAttribute="leading" secondItem="QoC-kW-fA9" secondAttribute="leading" id="wQx-2i-RDj"/>
+                            <constraint firstItem="dh6-79-QVk" firstAttribute="bottom" secondItem="m4z-z7-Shj" secondAttribute="bottom" id="yFR-cR-EQu"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="dadoImageView1" destination="Ysh-eS-uMb" id="3OV-fM-uEL"/>
